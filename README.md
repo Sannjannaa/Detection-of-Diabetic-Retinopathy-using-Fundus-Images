@@ -9,17 +9,17 @@ The network was trained for 125 epochs. Each epoch consisted of 117 iterations.
 
 The accuracy of the network was found to be 0.9974.
 
-File explanation
-1.ImagePatchGeneration.m
+# File explanation
+# 1.ImagePatchGeneration.m
 This file contains the code used to generate the patches and save them in separate folders to classify them according to the ground truth images.
 
-2.TrainingNeuralNetworks.m
+# 2.TrainingNeuralNetworks.m
 This file contains the code used to train and evaluate the convolutional neural network.
 
-3.VisualizeNeuralNetworks.m
+# 3.VisualizeNeuralNetworks.m
 This file contains the code used to visualize the convolution layers.
 
-4.ImageReconstruction.m
+# 4.ImageReconstruction.m
 This file contains the code used to reconstruct the first image from the patches generated.
 
 Reference: https://arxiv.org/ftp/arxiv/papers/1808/1808.03656.pdf
